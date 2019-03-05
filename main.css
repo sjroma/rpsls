@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Walter+Turncoat');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #24272e;
+  font-family: 'Walter Turncoat', sans-serif;
+}
+
+#game-name {
+  color: #f4d481;
+  font-size: 35px;
+  padding: 20px;
+  text-align: center;
+}
+
+.label, .scores {
+  color: #f4d481;
+  font-size: 30px;
+  text-align: center;
+}
+
+.outcome, .score {
+/*  border: 1px solid red;*/
+  display: inline-block;
+}
+
+#won, #lost, #tied {
+  padding: 0px 3px 0px 3px;
+}
+
+#loss {
+  margin: 0px 45px 0px 45px;
+}
+
+.choices {
+  color: #f4d481;
+  font-size: 25px;
+  padding: 15px;
+  text-align: center;
+}
+
+#you-chose, #comp-chose {
+  color: #f4d481;
+  display: inline-block;
+}
+
+.result {
+  color: #f4d481;
+  font-size: 30px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.icons {
+  margin: 30px 20px 0;
+  text-align: center;
+}
+
+.user-choice {
+  border: 4px solid #f4d481;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+  padding: 18px;
+}
+
+.user-choice:hover {
+  cursor: pointer;
+}
+
+.choice-label {
+  color: #f4d481;
+  text-align: center;
+}
+
+.name {
+/*  border: 1px solid red;*/
+  display: inline-block;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#rules {
+  color: #f4d481;
+  padding: 20px;
+  text-align: center;
+}
+
+@media all and (max-width: 576px) {
+  #game-name {
+    font-size: large;
+  }
+  
+  .user-choice {
+    height: 95px;
+    width: 95px;
+  }
+  
+  img {
+    height: 65px;
+    width: 65px;
+  }
+}

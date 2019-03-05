@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Rock-Paper-Scissors-Lizard-Spock</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <style>
+  </style>
+</head>
+
+<body>
+  <div id="game-name">Rock-Paper-Scissors-Lizard-Spock</div>
+
+  <div class="label">
+    <div id="won" class="outcome">Won</div>
+    <div id="lost" class="outcome">Lost</div>
+    <div id="tied" class="outcome">Tied</div>
+  </div>
+
+  <div class="scores">
+    <div id="win" class="score">0</div>
+    <div id="loss" class="score">0</div>
+    <div id="tie" class="score">0</div>
+  </div>
+  
+  <div class="choices">
+    <div id="you-chose">You chose...</div>
+    <div id="comp-chose"> Computer chose...</div>
+  </div>
+  
+  <div class="result">one...two...three...shoot!</div>
+
+  <div class="icons">
+    <div class="user-choice" id="rock">
+      <img src="images/rock.png" alt="rock">
+    </div>
+    <div class="user-choice" id="paper">
+      <img src="images/paper.png" alt="paper">
+    </div>
+    <div class="user-choice" id="scissors">
+      <img src="images/scissors.png" alt="scissors">
+    </div>
+    <div class="user-choice" id="lizard">
+      <img src="images/lizard.png" alt="lizard">
+    </div>
+    <div class="user-choice" id="spock">
+      <img src="images/spock.png" alt="spock">
+    </div>
+  </div>
+
+  <div class="choice-label">
+    <div class="name">Rock</div>
+    <div class="name">Paper</div>
+    <div class="name">Scissors</div>
+    <div class="name">Lizard</div>
+    <div class="name">Spock</div>
+  </div>
+
+  <div id="rules">
+    <p>Scissors cuts paper, paper covers rock,</p>
+    <p>rock crushes lizard, lizard poisons Spock,</p>
+    <p>Spock smashes scissors, scissors decapitates lizard,</p>
+    <p>lizard eats paper, paper disproves Spock,</p>
+    <p>Spock vaporizes rock and, as it always has,</p>
+    <p>rock crushes scissors</p>
+  </div>
+
+  <script src="rpsls.js"></script>
+</body>
+
+</html>
