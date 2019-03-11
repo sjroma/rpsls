@@ -15,7 +15,7 @@ const scissors_div = document.getElementById("scissors");
 const lizard_div = document.getElementById("lizard");
 const spock_div = document.getElementById("spock");
 
-//get the computer's choice
+//generate the computer's choice
 function getComp() {
   const rpsls = ["rock", "paper", "scissors", "lizard", "spock"];
   const computer = [Math.floor(Math.random() * rpsls.length)];
@@ -28,7 +28,7 @@ function userplay(getUser) {
   const compChoice = getComp();
 //  console.log("computer choice...",compChoice);
   switch (getUser + compChoice) {
-    //user wins
+    //cases where user wins
     case "rockscissors":
     case "rocklizard":
     case "paperrock":
@@ -42,7 +42,7 @@ function userplay(getUser) {
 //      console.log("You win!");
       win(getUser, compChoice);
       break;
-    //user loses
+    //cases where user loses
     case "rockspock":
     case "rockpaper":
     case "paperscissors":
@@ -56,7 +56,7 @@ function userplay(getUser) {
 //      console.log("You lose!");
       loss(getUser, compChoice);
       break;
-    //default is a tie
+    //default is a tie, no need to list the cases
     default:
 //      console.log("It's a tie!");
       tie(getUser, compChoice);
