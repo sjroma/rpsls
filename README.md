@@ -29,7 +29,7 @@ Spock vaporizes rock,
 and, as it always has, rock crushes scissors  
 
 ### To Do  
-- [ ] Get Javascript written so one can actually play the game  
+- [x] Get Javascript written so one can actually play the game  
 - [ ] Make the code responsive so the game can be played on large, medium and small devices  
 - [ ] Enhancement - allow choice of playing against the computer, or two players head to head  
   - [ ] If playing head to head, prompt for, and display, user's names  
