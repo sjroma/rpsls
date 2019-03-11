@@ -1,10 +1,7 @@
 # Rock-Paper-Scissors-Lizard-Spock  
 
-A front-end JavaScript exercise where the user plays Rock-Paper-Scissors (RPS) against the
-computer.  
-RPS is a classic two player game. Each player chooses either rock, paper or scissors. The
-items are compared and whichever player chooses the more powerful item wins. The possible
-outcomes are:  
+A front-end JavaScript exercise where the user plays Rock-Paper-Scissors (RPS) against the computer.  
+RPS is a classic two player game. Each player chooses either rock, paper or scissors. The items are compared and whichever player chooses the more powerful item wins. The possible outcomes are:  
 * Scissors cuts paper  
 * Paper covers rock  
 * Rock crushes scissors  
@@ -31,7 +28,10 @@ and, as it always has, rock crushes scissors
 ### To Do  
 - [x] Get Javascript written so one can actually play the game  
 - [ ] Make the code responsive so the game can be played on large, medium and small devices  
-- [ ] Enhancement - allow choice of playing against the computer, or two players head to head  
+- [ ] Possible enhancement - allow choice of playing against the computer, or two players head to head  
   - [ ] If playing head to head, prompt for, and display, user's names  
+
+#### Notes:  
+* I was originally going to use font awesome icons but had a difficult time sizing them. Then I found a link to [convert font awesome to png](http://fa2png.io). So instead of calling FA, I genned the images I needed.  
   
 ##### ~/freeCodeCamp/rpsls  
