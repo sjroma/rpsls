@@ -115,7 +115,7 @@ function win(user, computer) {
     result_div.innerHTML = "You win!"
   }
   else {
-    userchoice_div.innerHTML = user + " crushes";
+    userchoice_div.innerHTML = user + " smashes";
     compchoice_div.innerHTML = computer;
     result_div.innerHTML = "You win!"
   }
