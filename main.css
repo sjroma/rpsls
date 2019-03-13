@@ -80,6 +80,11 @@ body {
   cursor: pointer;
 }
 
+.user-choice:active {
+  background-color: #14171e;
+	border: 4px solid #e4c471;
+}
+
 .choice-label {
   color: #f4d481;
   text-align: center;
