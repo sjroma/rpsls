@@ -14,7 +14,7 @@ body {
 #game-name {
   color: #f4d481;
   font-size: 35px;
-  padding: 20px;
+  padding: 15px;
   text-align: center;
 }
 
@@ -47,13 +47,11 @@ body {
 #you-chose {
   color: #f4d481;
   display: inline-block;
-  padding-right: 10px;
 }
 
 #comp-chose {
   color: #f4d481;
   display: inline-block;
-  padding-left: 10px;
 }
 
 .result {
@@ -100,6 +98,12 @@ body {
 #rules {
   color: #f4d481;
   padding: 20px;
+  text-align: center;
+}
+
+.author {
+  color: #f4d481;
+  font-size: small;
   text-align: center;
 }
 
